@@ -1,1 +1,4 @@
-# News_FE
+Cách chay:
++cd
++npm i
++npm start
