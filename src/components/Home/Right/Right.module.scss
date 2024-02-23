@@ -1,0 +1,68 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tittle {
+  color: rgb(26, 132, 26);
+  font-size: 21px;
+  text-decoration: underline;
+  line-height: 2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.table1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 124px;
+  height: 90px;
+}
+td {
+  font-size: 17px;
+  color: black;
+  padding-left: 10px;
+  padding-bottom: 14px;
+}
+
+th {
+  padding-bottom: 14px;
+}
+
+g {
+  font-size: 13px;
+  color: #78b43d;
+  padding: 4px;
+}
+
+a {
+  font-size: 13px;
+  color: black;
+  padding: 4px;
+}
+
+.header {
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+}
